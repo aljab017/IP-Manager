@@ -1,0 +1,16 @@
+ip_register.ip_registrar.*:
+  type: config_entity
+  label: IP Registrar
+  mapping:
+    id:
+      type: string
+      label: ID
+    label:
+      type: label
+      label: Label
+    uuid:
+      type: string
+    description:
+      type: string
+    email:
+      type: string

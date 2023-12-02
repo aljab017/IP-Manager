@@ -1,0 +1,21 @@
+{#
+/**
+ * @file
+ * Default theme implementation to present an IP Change entity.
+ *
+ * This template is used when viewing a registered IP Change's page,
+ * e.g., /myminitex/{organization}/ip-register/sent)/123. 123 being the IP Change's ID.
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ *   print a subset such as 'content.title'.
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_ip_change()
+ */
+#}
+<article{{ attributes }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</article>
