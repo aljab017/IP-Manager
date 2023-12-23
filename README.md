@@ -1,4 +1,4 @@
-# IP Register
+# IP Manager
 
 _IP Manager application implemented in Drupal 9_
 
